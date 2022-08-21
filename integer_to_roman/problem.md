@@ -2,7 +2,7 @@
 
   
 
-Given a roman numeral, convert it to an integer.
+Given an integer, convert it to a roman numeral.
 
   
 
