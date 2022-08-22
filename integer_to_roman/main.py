@@ -17,19 +17,18 @@ class Solution(object):
                 ("M", 1000),
             ]
         )
-        #sort desc by value to choose the closest candiadate
-        symbol_map = dict( sorted(symbol_map.items(),
-                           key=lambda item: item[1],
-                           reverse=True)) 
+        # sort desc by value to choose the closest candiadate
+        symbol_map = dict(
+            sorted(symbol_map.items(), key=lambda item: item[1], reverse=True)
+        )
         output_roman = ""
         while num > 0:
             for key in symbol_map:
                 if num >= symbol_map[key]:
                     num = num - symbol_map[key]
                     output_roman = output_roman + key
-                    break 
-        return output_roman    
-            
+                    break
+        return output_roman
 
 
 def main():
