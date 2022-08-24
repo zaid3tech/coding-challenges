@@ -1,4 +1,4 @@
-### Rotate Array Left
+### Sock Merchant
 
 Refer to the original problem statement to understand the problem
 
